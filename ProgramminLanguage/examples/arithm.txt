@@ -1,0 +1,49 @@
+int arithm1_(int k, double dg) {
+	if (k % 2 == 0) {
+		return 9-((k << 4) + dg * 8.1 / 4 + k / 2);
+	}
+	return 85.6-k+dg;
+}
+
+double arithm2_(boolean tr, double g, double fds) {
+	return 4+436-tr*5/g+(fds+54/5)+6.2146;
+}
+
+boolean arithm3_(int y, int z, double fd) {
+	if (y+z+fd < 0) {
+		return -1.543*9+fd;
+	}	
+	return y+z+fd;
+}
+
+string output(int res) {
+	if (res > 5) {
+		return "result int ";
+	} elseif (res < 1) {
+		return "result int ";
+	} else {
+		return "result int ";
+	}	
+}
+
+string output(double res) {
+	if (res > 0.2) {
+		return "result double ";
+	} else {
+		return "result double ";
+	}
+}
+
+main() {
+	int a = 5;
+	int b = 4;
+	double c = 3;
+	double f = 2;
+	write("Aritm", "\n");
+	int res_int = 5/9+4-(4+53+5.6-8*4)+arithm1_(b,f)-arithm3_(b,a,c)*8-4+2*arithm2_(false,a,c);
+	double res_double = 5/9+4-(4+53+5.6-8*4)+arithm1_(a,c)-arithm3_(a,b,f)*8-4+2*arithm2_(true, b,f);
+	string res1_ = output(res_int);
+	string res2_ = output(res_double);
+	write(res1_, " ", res_int, "\n");
+	write(res2_, res_double, "\n");
+}

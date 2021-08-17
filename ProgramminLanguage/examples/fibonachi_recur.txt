@@ -1,0 +1,21 @@
+int fibonachi(int n) {
+	if (n == 0) {
+		return 0;
+	} elseif (n == 1) {
+		return 1;
+	}
+	int tmp1_ = n - 1;
+	int tmp2_ = n - 2;
+	int res1_ = fibonachi(tmp1_);
+	int res2_ = fibonachi(tmp2_);
+	return res1_ + res2_;
+}
+
+main() {
+	int n;
+	write("Fibonachi", "\n","input n: ");
+	read(n);
+	write("\n");
+	int res = fibonachi(n);
+	write("result ", res);
+}

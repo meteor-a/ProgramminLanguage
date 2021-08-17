@@ -1,0 +1,75 @@
+//error type:xyzw
+//x-STEP OF COMPILATION(1-update/create DB/table 2-START COMPILATION 3-LA 4-SYNTACTIC ANALIZER 5-SEMATIC ANALIZER)
+//y-TYPE OF ERROR(0-SQLITE 1-FILE 2-INTERNAL)
+//zw-CODE ERROR
+
+
+//ERRORS UPDATE DB MYSQL
+1001:ERROR OPEN DB:
+1002:ERROR DELETE DB:
+1003:ERROR INSERT DB:
+1104:AN ERROR OCCURRED WHILE TRYING TO OPEN THE FILE:
+1005:ERROR CREATE TABLE:
+1006:ERROR DROP TABLE:
+
+
+//ERRORS START COMLILATION
+2101:AN ERROR OCCURRED WHILE TRYING TO OPEN THE FILE:
+
+
+//ERRORS LEXICAL ANALYZER
+3201:Syntax error detected when describing a string constant:
+3000:ERROR OPEN DB:
+3202:In the lexical analysis, an unprocessed lexeme is encountered:
+
+
+//ERRORS SYNTAX ANALYZER
+4200:Unexpected end of the program:
+4201:An unexpected symbol is encountered:
+4202:Error in naming identifier:
+4203:Error when specifying the identifier type:
+4204:Error of constant correctness:
+
+4205:Error. Check that the logical constant is correct!
+4206:Error. Check that the number constant is correct!
+4207:Error describing "for" loop parameters!
+4208:Error. "while" statement not found after "do"!
+4209:Error. The "else" branch must be used once in the statement and be the last!
+4210:Error validating function arguments:
+4211:Error Check parentheses in expression:
+4212:Error. "++" and "--" can be apply only to number variables:
+4213:Error. Not fined function "main":
+
+
+//ERRORS SEMANTIC ANALYZER
+5200:Error. Overriding procedure:
+5201:Error. Re-declaring a variable: 
+5202:Error semantic analyzer: 
+5203:Error. Incorrect type in operator "write": 
+5204:Error. Identificator not declaring: 
+5205:Error. Call function not declaring: 
+5206:Error. Incorrect type in operator "read":
+5207:Error. Incorrect type in operator expression:
+5208:Error. Cant apply operations { %, <<, >>, &, |, %= } to double:
+5209:Error. Cant operate with double and string:
+5210:Error. To string can apply only { +, =, +=} operations:
+5211:Error. String can operate with only string:
+5212:Error. Incorrect type expression in operator "do...while":
+5213:Error. Incorrect type expression 1 in operator "for\elfor":
+5214:Error. Incorrect type expression 2 in operator "for"\"elfor":
+5215:Error. Incorrect type expression 3 in operator "for"\"elfor":
+5216:Error. Incorrect type expression in operator "while":
+5217:Error. Incorrect type expression in operator "if":
+5218:Error. Incorrect type of return expression:
+5219:Error. Incorrect place of break:
+
+//ERRORS GENERATOR
+6200:Error. Cannot make operation "/" to boolean value "false":
+6201:Error. Cannot make operation "/" to "0":
+6202:Error. Cannot make operation "/" to string with length 0:
+6203:Error. Cannot make operation "/" to boolean value "false":
+6204:Error. Cannot make operation "%" with double:
+6205:Error. Cannot make operation "<<,>>,~,&,|" with double:
+6206:Error. Incorrect input type:
+6207:Error. Incompatible types:
+6208:Error. Overflow:

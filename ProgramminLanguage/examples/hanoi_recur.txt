@@ -1,0 +1,22 @@
+def hanoi(int n, int left, int right) {
+	if (n <> 1) {
+		int tmp_n = n - 1;
+		int tmp_right = 6 - left - right;
+		hanoi(tmp_n, left, tmp_right);
+	}
+	write(n, " ", left, " ", right, "\n");
+	if (n <> 1) {
+		int tmp_n = n - 1;
+		int tmp_left = 6 - left - right;
+		hanoi(tmp_n, tmp_left, right);
+	}
+}
+
+main() {
+	int n;
+	write("HANOI", "\n");
+	write("input n: ");
+	read(n);
+	write("result", "\n");
+	hanoi(n, 1, 3);
+}

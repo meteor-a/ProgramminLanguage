@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\SQL">
+      <UniqueIdentifier>{9908786f-711c-459f-b0d2-48d2bc4a4ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LexicalAnalyzer">
+      <UniqueIdentifier>{2fca6780-519e-4995-b747-a4e4bb60a995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LexicalAnalyzer">
+      <UniqueIdentifier>{d14d52ce-4042-4138-83c3-d07c8f81df61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Constants">
+      <UniqueIdentifier>{4929b7d8-81b9-4e2b-af35-ebb7f9e88982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Compiler">
+      <UniqueIdentifier>{7425caab-9a4a-4457-8c88-5933feb11510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Compiler">
+      <UniqueIdentifier>{cd669fb3-b459-45fb-aca0-a6206c268298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\SyntaxAnalyzer">
+      <UniqueIdentifier>{5716ed51-adb4-4eb9-b4cf-6cd89571c955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SyntaxAnalyzer">
+      <UniqueIdentifier>{9c6160cf-06ce-4508-84bd-7738d60e2cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\SemanticAnalyzer">
+      <UniqueIdentifier>{cd94e663-bbcc-48c5-b438-1cff6c1de124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SemanticAnalyzer">
+      <UniqueIdentifier>{9c207edc-a617-4ea8-bc20-3c0e9e0bd4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Code_errors">
+      <UniqueIdentifier>{e60c5012-3b63-474d-9120-2212bc5a72f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Generator">
+      <UniqueIdentifier>{97c023db-e303-42cb-9a9a-189eda035aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\All_Structs">
+      <UniqueIdentifier>{ba0d496e-c21d-4680-bf82-5fd581a8802b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Generator">
+      <UniqueIdentifier>{1d18450b-9a3c-4fc4-913b-ca66aa31fa6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\All_Structs">
+      <UniqueIdentifier>{2572dfdd-fca1-4a18-b2a1-a0e938a614dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProgramminLanguage.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>Исходные файлы\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicalAnalyzer.cpp">
+      <Filter>Исходные файлы\LexicalAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCompiler.cpp">
+      <Filter>Исходные файлы\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxAnalyzer.cpp">
+      <Filter>Исходные файлы\SyntaxAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="SemanticAnalyzer.cpp">
+      <Filter>Исходные файлы\SemanticAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="GenCode.cpp">
+      <Filter>Исходные файлы\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="PolizItem.cpp">
+      <Filter>Исходные файлы\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Types.cpp">
+      <Filter>Исходные файлы\All_Structs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sqlite3.h">
+      <Filter>Исходные файлы\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalAnalyzer.h">
+      <Filter>Файлы заголовков\LexicalAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Файлы заголовков\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCompiler.h">
+      <Filter>Файлы заголовков\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxAnalyzer.h">
+      <Filter>Файлы заголовков\SyntaxAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="SemanticAnalyzer.h">
+      <Filter>Файлы заголовков\SemanticAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="GenCode.h">
+      <Filter>Файлы заголовков\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="PolizItem.h">
+      <Filter>Файлы заголовков\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Файлы заголовков\All_Structs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="errors_list.txt">
+      <Filter>Файлы ресурсов\Code_errors</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

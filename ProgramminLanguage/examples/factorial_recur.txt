@@ -1,0 +1,19 @@
+int factorial(int n) {
+	if (n == 0) {
+		return 1;
+	} elseif (n < 0) {
+		return 0;
+	} else {
+		int m = n - 1;
+		return n * factorial(m);
+	}
+}
+
+main() {
+	int n;
+	write("Factorial", "\n", "input n: ");
+	read(n);
+	write("\n");
+	int res = factorial(n);
+	write("Factorial for number ", n, " is ", res);
+}

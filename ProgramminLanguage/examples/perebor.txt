@@ -1,0 +1,39 @@
+def per(int n, int k, int j, int s) {
+	write("Start", "\n");
+	for (int ii = 0; ii <= n; ++ii) {
+		for (int jj = 0; jj <= k; ++jj) {
+			for (int zz = 0; zz <= j; ++zz) {
+				for (int gg = 0; gg <= s; ++gg) {
+					write(ii,jj,zz,gg, "\n");
+				}
+			}
+		}
+	}
+	write("END", "\n");
+}
+
+main() {
+	int n;
+	int k;
+	int j;
+	int s;
+
+	while(true) {
+		write("Perebor", "\n");
+		write("input n: ");
+		read(n);
+		write("input k: ");
+		read(k);
+		write("input j: ");
+		read(j);
+		write("input s: ");
+		read(s);
+	
+		if (n > 9 || n < 0 || k > 9 || k < 0 || j > 9 || j < 0 || s > 9 || s < 0) {
+			write("incorrect input");
+		} else {
+			per(n,k,j,s);
+			break;
+		}
+	}
+}

@@ -1,0 +1,7 @@
+﻿  SemanticAnalyzer.cpp
+D:\vs_project\ProgramminLanguage\ProgramminLanguage\SemanticAnalyzer.cpp(258,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\vs_project\ProgramminLanguage\ProgramminLanguage\SemanticAnalyzer.cpp(451,44): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\vs_project\ProgramminLanguage\ProgramminLanguage\SemanticAnalyzer.cpp(54): warning C4715: SemanticAnalyzer::getCodeType: значение возвращается не при всех путях выполнения
+D:\vs_project\ProgramminLanguage\ProgramminLanguage\SemanticAnalyzer.cpp(299): warning C4715: SemanticAnalyzer::stopAnalyzeCallFunc: значение возвращается не при всех путях выполнения
+D:\vs_project\ProgramminLanguage\ProgramminLanguage\SemanticAnalyzer.cpp(423): warning C4715: SemanticAnalyzer::check_compatible_op_and_st_: значение возвращается не при всех путях выполнения
+  ProgramminLanguage.vcxproj -> D:\vs_project\ProgramminLanguage\x64\Debug\ProgramminLanguage.exe

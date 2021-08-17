@@ -1,0 +1,15 @@
+service_word:if,else,for,elfor,while,do,return,break,goto,continue,def;
+service_type:int,string,double,boolean;
+system_constant:true,false;
+logical_operation:&&,!,||;
+indexing_operation:[,];
+punctuation:;,,,(,),{,},:;
+semicolon:;;
+opening_parenthesis:(;
+closing_parenthesis:);
+separator: ,\n,\r,\t;
+bitwise_operation:|,&,~,<<,>>,^;
+comparison_operation:<,>,>=,<=,==,<>;
+arithmetic_operation:+,-,*,/,%,++,--;
+assignment_operation_with_arithmetic:+=,-=,*=,/=,%=;
+assignment_operation:=;

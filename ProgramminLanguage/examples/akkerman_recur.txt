@@ -1,0 +1,26 @@
+int akkerman(int m, int n) {
+	if (m == 0) {
+		return n + 1;
+	} elseif (m > 0 && n == 0) {
+		int fg = m - 1;
+		return akkerman(fg, 1);
+	} elseif (m > 0 && n > 0) {
+		int fg = m - 1;
+		int kl = n - 1;
+		int sd = akkerman(m, kl);
+		return akkerman(fg, sd);
+	}
+}
+
+main() {
+	int m;
+	int n;
+	write("Akkerman function", "\n");
+	write("input m: ");
+	read(m);
+	write("\n", "input n: ");
+	read(n);
+	write("\n");
+	int res = akkerman(m, n);
+	write(res);
+}
